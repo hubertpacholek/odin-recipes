@@ -19,13 +19,27 @@ ul li {
 li img {
     display: block;
     width: 60%;
-    max-height: 61%;
+    max-height: 59.5%;
     margin: auto;
     border-radius: 3%;
     
 }
 
 li a {
-    display: block;
-    padding-top: 14px;
+    display: inline-block;
+    margin-top: 14px;
+    padding: 2px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+
+}
+
+a:visited, a:link {
+    color: black;
+}
+
+a:hover {
+    background-color: black;
+    color: white;
 }
