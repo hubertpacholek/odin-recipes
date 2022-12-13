@@ -7,9 +7,25 @@ h1 {
 
 }
 ul {
+    padding: 0;
     display: flex;
+    text-align: center;
 }
 ul li {
-    margin:auto;
     list-style: none;
+    width: 33.3%;
+
+}
+li img {
+    display: block;
+    width: 60%;
+    max-height: 61%;
+    margin: auto;
+    border-radius: 3%;
+    
+}
+
+li a {
+    display: block;
+    padding-top: 14px;
 }
